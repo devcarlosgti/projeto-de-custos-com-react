@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.item a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* colocar o hover p quanod passar o mouse em cima do item mudar a cor */
+.item a:hover {
+    color: #FFBB33;
+}

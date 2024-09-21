@@ -1,0 +1,38 @@
+.footer {
+    background-color: #222;
+    color: #FFF;
+    padding: 3em;
+    text-align: center;
+}
+
+/* classe pai */
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+/* demais classes filhos */
+.social_list li{
+    margin: 1em;
+}
+
+.social_list li:hover{
+    /* p mudar cor quando passar o mouse */
+    color: #FFBB33;
+}
+
+.social_list svg{
+    font-size: 1.5em;
+    /* cursor para ficar com se fosse um clique */
+    cursor: pointer;
+}
+
+.copy_right {
+    margin-top: 2em;
+}
+
+.copy_right span{
+    font-weight: bold;
+    color: #FFBB33;
+}
